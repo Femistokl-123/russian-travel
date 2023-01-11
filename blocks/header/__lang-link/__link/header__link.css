@@ -10,3 +10,17 @@
     text-decoration: underline;
     margin-right: 18px;
 }
+
+@media screen and (max-width: 320px) {
+    .header__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        font-family: 'Inter';
+    }
+    .header__link:first-of-type {
+        text-decoration: underline;
+        margin-right: 18px;
+    }
+}

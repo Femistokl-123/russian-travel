@@ -6,3 +6,14 @@
     justify-content: normal;
     align-items: normal;
 }
+
+@media screen and (max-width: 320px) {
+    .place__heading {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: flex-start;
+    }
+}

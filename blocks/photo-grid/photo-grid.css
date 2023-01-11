@@ -39,5 +39,7 @@
         grid-template-columns: repeat(1, 288px);
         row-gap: 12px;
         column-gap: 0;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
