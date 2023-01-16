@@ -6,6 +6,8 @@
 .cover {
     padding-bottom: 92px;
     margin-top: 0;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .cover:hover {
@@ -18,4 +20,22 @@
     transition-duration: 0.5s;
     transition-timing-function: linear;
     transition-delay: 0s;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-bottom: 64px;
+    }
 }

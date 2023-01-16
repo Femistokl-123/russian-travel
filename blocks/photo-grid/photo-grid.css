@@ -21,6 +21,8 @@
         grid-template-columns: repeat(3, 300px);
         row-gap: 14px;
         column-gap: 14px;
+        padding-left: 48px;
+        padding-right: 48px;
     }
 }
 
@@ -30,6 +32,8 @@
         grid-template-columns: repeat(2, 352px);
         row-gap: 16px;
         column-gap: 16px;
+        padding-left: 24px;
+        padding-left: 24px;
     }
 }
 
@@ -39,7 +43,8 @@
         grid-template-columns: repeat(1, 288px);
         row-gap: 12px;
         column-gap: 0;
-        margin-left: 16px;
-        margin-right: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 64px;
     }
 }

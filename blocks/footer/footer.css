@@ -5,3 +5,15 @@
     padding-bottom: 24px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 720px;
+    }
+}

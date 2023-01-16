@@ -2,8 +2,6 @@
     max-width: 1184px;
     height: 740px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .cover__overlay::before {
@@ -17,4 +15,28 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 640px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 480px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        width: 100%;
+        min-height: 200px;
+        height: auto;
+    }
 }

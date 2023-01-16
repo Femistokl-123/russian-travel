@@ -5,9 +5,36 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    max-width: 360px;
+    width: 360px;
     z-index: 3;
     position: absolute;
     left: 412px;
     bottom: 245px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        left: 332px;
+        top: 379px;
+        bottom: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        left: 204px;
+        top: 299px;
+        bottom: 115px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+        left: 16px;
+        top: 119px;
+        bottom: 33px;
+    }
 }

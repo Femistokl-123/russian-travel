@@ -8,6 +8,20 @@
     margin-bottom: 26px;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__paragraph-first {
+        margin-bottom: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph-first {
+        font-size: 16px;
+        margin-bottom: 25px;
+        line-height: 26px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__paragraph-first {
         font-size: 16px;

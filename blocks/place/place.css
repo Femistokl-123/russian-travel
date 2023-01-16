@@ -1,8 +1,20 @@
 .place {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     padding: 0;
 }
 
 .place:last-of-type {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-bottom: 50px;
+    }
 }
