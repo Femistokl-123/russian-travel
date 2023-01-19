@@ -5,6 +5,7 @@
     align-content: normal;
     justify-content: normal;
     align-items: normal;
+    margin-bottom: 48px;
 }
 
 @media screen and (max-width: 320px) {
@@ -15,5 +16,6 @@
         align-content: normal;
         justify-content: normal;
         align-items: flex-start;
+        margin-bottom: 32px;
     }
 }
