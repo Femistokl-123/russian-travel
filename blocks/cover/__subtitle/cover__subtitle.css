@@ -5,27 +5,10 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    width: 360px;
-    z-index: 3;
-    position: absolute;
-    left: 412px;
-    bottom: 245px;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        left: 332px;
-        top: 379px;
-        bottom: 195px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        left: 204px;
-        top: 299px;
-        bottom: 115px;
-    }
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 360px;
+    z-index: 2;
 }
 
 @media screen and (max-width: 320px) {
@@ -33,8 +16,5 @@
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
-        left: 16px;
-        top: 119px;
-        bottom: 33px;
     }
 }
