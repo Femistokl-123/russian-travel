@@ -19,3 +19,15 @@
         margin-bottom: 32px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place__heading {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+}
