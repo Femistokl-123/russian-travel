@@ -35,8 +35,6 @@
 @import url(../blocks/place/__main/place__main.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph-first/place__paragraph-first.css);
-@import url(../blocks/place/__paragraph-second/place__paragraph-second.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/place.css);
@@ -50,9 +48,5 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link-calendar/footer__link-calendar.css);
-@import url(../blocks/footer/__link-map/footer__link-map.css);
-@import url(../blocks/footer/__link-timetable/footer__link-timetable.css);
-@import url(../blocks/footer/__link-travel/footer__link-travel.css);
-@import url(../blocks/footer/__link-weather/footer__link-weather.css);
