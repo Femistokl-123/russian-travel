@@ -14,14 +14,3 @@
         align-items: normal;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .place__main {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: normal;
-        justify-content: normal;
-        align-items: normal;
-    }
-}

@@ -18,10 +18,3 @@
         margin-bottom: 48px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        row-gap: 32px;
-        margin-bottom: 48px;
-    }
-}

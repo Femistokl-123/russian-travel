@@ -27,10 +27,3 @@
         height: 200px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .lead__image {
-        max-width: 320px;
-        min-height: 200px;
-    }
-}

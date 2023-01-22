@@ -32,14 +32,3 @@
         margin-right: auto;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .place__title {
-        width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 32px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}

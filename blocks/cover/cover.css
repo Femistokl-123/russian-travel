@@ -22,9 +22,3 @@
         padding-bottom: 64px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .cover {
-        padding-bottom: 64px;
-    }
-}

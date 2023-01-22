@@ -26,11 +26,3 @@
         margin-right: auto;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .place__website {
-        width: 288px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
