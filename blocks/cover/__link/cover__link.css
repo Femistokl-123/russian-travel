@@ -17,6 +17,7 @@
 
 .cover__link::after {
     max-width: 100%;
+    max-height: 100%;
     content: "";
     position: absolute;
     top: 0;
