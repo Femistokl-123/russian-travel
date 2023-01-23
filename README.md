@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
 
+Ссылка на Github Pages: https://femistokl-123.github.io/russian-travel/
+
 ### Обзор
 * Header
 * Lead

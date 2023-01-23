@@ -24,8 +24,4 @@
         font-size: 18px;
         line-height: 20px;
     }
-    .header__link:first-of-type {
-        text-decoration: underline;
-        margin-right: 18px;
-    }
 }
